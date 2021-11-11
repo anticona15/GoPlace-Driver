@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54468D80273D6FF7005E046B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54468D7F273D6FF7005E046B /* AppDelegate.swift */; };
+		54468D82273D6FF7005E046B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54468D81273D6FF7005E046B /* SceneDelegate.swift */; };
+		54468D84273D6FF7005E046B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54468D83273D6FF7005E046B /* ViewController.swift */; };
+		54468D87273D6FF7005E046B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54468D85273D6FF7005E046B /* Main.storyboard */; };
+		54468D89273D6FFC005E046B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54468D88273D6FFC005E046B /* Assets.xcassets */; };
+		54468D8C273D6FFC005E046B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54468D8A273D6FFC005E046B /* LaunchScreen.storyboard */; };
+		54468D97273D6FFC005E046B /* GoPlace_DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54468D96273D6FFC005E046B /* GoPlace_DriverTests.swift */; };
+		54468DA1273D6FFD005E046B /* GoPlace_DriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54468DA0273D6FFD005E046B /* GoPlace_DriverUITests.swift */; };
+		54468DA3273D6FFD005E046B /* GoPlace_DriverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54468DA2273D6FFD005E046B /* GoPlace_DriverUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54468D93273D6FFC005E046B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54468D74273D6FF7005E046B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54468D7B273D6FF7005E046B;
+			remoteInfo = "GoPlace-Driver";
+		};
+		54468D9D273D6FFD005E046B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54468D74273D6FF7005E046B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54468D7B273D6FF7005E046B;
+			remoteInfo = "GoPlace-Driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54468D7C273D6FF7005E046B /* GoPlace-Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoPlace-Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54468D7F273D6FF7005E046B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54468D81273D6FF7005E046B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54468D83273D6FF7005E046B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54468D86273D6FF7005E046B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54468D88273D6FFC005E046B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54468D8B273D6FFC005E046B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54468D8D273D6FFC005E046B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54468D92273D6FFC005E046B /* GoPlace-DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoPlace-DriverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54468D96273D6FFC005E046B /* GoPlace_DriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoPlace_DriverTests.swift; sourceTree = "<group>"; };
+		54468D9C273D6FFC005E046B /* GoPlace-DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoPlace-DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54468DA0273D6FFD005E046B /* GoPlace_DriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoPlace_DriverUITests.swift; sourceTree = "<group>"; };
+		54468DA2273D6FFD005E046B /* GoPlace_DriverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoPlace_DriverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54468D79273D6FF7005E046B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54468D8F273D6FFC005E046B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54468D99273D6FFC005E046B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54468D73273D6FF7005E046B = {
+			isa = PBXGroup;
+			children = (
+				54468D7E273D6FF7005E046B /* GoPlace-Driver */,
+				54468D95273D6FFC005E046B /* GoPlace-DriverTests */,
+				54468D9F273D6FFD005E046B /* GoPlace-DriverUITests */,
+				54468D7D273D6FF7005E046B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54468D7D273D6FF7005E046B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54468D7C273D6FF7005E046B /* GoPlace-Driver.app */,
+				54468D92273D6FFC005E046B /* GoPlace-DriverTests.xctest */,
+				54468D9C273D6FFC005E046B /* GoPlace-DriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54468D7E273D6FF7005E046B /* GoPlace-Driver */ = {
+			isa = PBXGroup;
+			children = (
+				54468D7F273D6FF7005E046B /* AppDelegate.swift */,
+				54468D81273D6FF7005E046B /* SceneDelegate.swift */,
+				54468D83273D6FF7005E046B /* ViewController.swift */,
+				54468D85273D6FF7005E046B /* Main.storyboard */,
+				54468D88273D6FFC005E046B /* Assets.xcassets */,
+				54468D8A273D6FFC005E046B /* LaunchScreen.storyboard */,
+				54468D8D273D6FFC005E046B /* Info.plist */,
+			);
+			path = "GoPlace-Driver";
+			sourceTree = "<group>";
+		};
+		54468D95273D6FFC005E046B /* GoPlace-DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				54468D96273D6FFC005E046B /* GoPlace_DriverTests.swift */,
+			);
+			path = "GoPlace-DriverTests";
+			sourceTree = "<group>";
+		};
+		54468D9F273D6FFD005E046B /* GoPlace-DriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54468DA0273D6FFD005E046B /* GoPlace_DriverUITests.swift */,
+				54468DA2273D6FFD005E046B /* GoPlace_DriverUITestsLaunchTests.swift */,
+			);
+			path = "GoPlace-DriverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54468D7B273D6FF7005E046B /* GoPlace-Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54468DA6273D6FFD005E046B /* Build configuration list for PBXNativeTarget "GoPlace-Driver" */;
+			buildPhases = (
+				54468D78273D6FF7005E046B /* Sources */,
+				54468D79273D6FF7005E046B /* Frameworks */,
+				54468D7A273D6FF7005E046B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoPlace-Driver";
+			productName = "GoPlace-Driver";
+			productReference = 54468D7C273D6FF7005E046B /* GoPlace-Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54468D91273D6FFC005E046B /* GoPlace-DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54468DA9273D6FFD005E046B /* Build configuration list for PBXNativeTarget "GoPlace-DriverTests" */;
+			buildPhases = (
+				54468D8E273D6FFC005E046B /* Sources */,
+				54468D8F273D6FFC005E046B /* Frameworks */,
+				54468D90273D6FFC005E046B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54468D94273D6FFC005E046B /* PBXTargetDependency */,
+			);
+			name = "GoPlace-DriverTests";
+			productName = "GoPlace-DriverTests";
+			productReference = 54468D92273D6FFC005E046B /* GoPlace-DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54468D9B273D6FFC005E046B /* GoPlace-DriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54468DAC273D6FFD005E046B /* Build configuration list for PBXNativeTarget "GoPlace-DriverUITests" */;
+			buildPhases = (
+				54468D98273D6FFC005E046B /* Sources */,
+				54468D99273D6FFC005E046B /* Frameworks */,
+				54468D9A273D6FFC005E046B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54468D9E273D6FFD005E046B /* PBXTargetDependency */,
+			);
+			name = "GoPlace-DriverUITests";
+			productName = "GoPlace-DriverUITests";
+			productReference = 54468D9C273D6FFC005E046B /* GoPlace-DriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54468D74273D6FF7005E046B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					54468D7B273D6FF7005E046B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					54468D91273D6FFC005E046B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 54468D7B273D6FF7005E046B;
+					};
+					54468D9B273D6FFC005E046B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 54468D7B273D6FF7005E046B;
+					};
+				};
+			};
+			buildConfigurationList = 54468D77273D6FF7005E046B /* Build configuration list for PBXProject "GoPlace-Driver" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54468D73273D6FF7005E046B;
+			productRefGroup = 54468D7D273D6FF7005E046B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54468D7B273D6FF7005E046B /* GoPlace-Driver */,
+				54468D91273D6FFC005E046B /* GoPlace-DriverTests */,
+				54468D9B273D6FFC005E046B /* GoPlace-DriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54468D7A273D6FF7005E046B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54468D8C273D6FFC005E046B /* LaunchScreen.storyboard in Resources */,
+				54468D89273D6FFC005E046B /* Assets.xcassets in Resources */,
+				54468D87273D6FF7005E046B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54468D90273D6FFC005E046B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54468D9A273D6FFC005E046B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54468D78273D6FF7005E046B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54468D84273D6FF7005E046B /* ViewController.swift in Sources */,
+				54468D80273D6FF7005E046B /* AppDelegate.swift in Sources */,
+				54468D82273D6FF7005E046B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54468D8E273D6FFC005E046B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54468D97273D6FFC005E046B /* GoPlace_DriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54468D98273D6FFC005E046B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54468DA3273D6FFD005E046B /* GoPlace_DriverUITestsLaunchTests.swift in Sources */,
+				54468DA1273D6FFD005E046B /* GoPlace_DriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54468D94273D6FFC005E046B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54468D7B273D6FF7005E046B /* GoPlace-Driver */;
+			targetProxy = 54468D93273D6FFC005E046B /* PBXContainerItemProxy */;
+		};
+		54468D9E273D6FFD005E046B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54468D7B273D6FF7005E046B /* GoPlace-Driver */;
+			targetProxy = 54468D9D273D6FFD005E046B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54468D85273D6FF7005E046B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54468D86273D6FF7005E046B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54468D8A273D6FFC005E046B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54468D8B273D6FFC005E046B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54468DA4273D6FFD005E046B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54468DA5273D6FFD005E046B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54468DA7273D6FFD005E046B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GoPlace-Driver/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.GoPlace-Driver.GoPlace-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54468DA8273D6FFD005E046B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GoPlace-Driver/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.GoPlace-Driver.GoPlace-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54468DAA273D6FFD005E046B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.GoPlace-Driver.GoPlace-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoPlace-Driver.app/GoPlace-Driver";
+			};
+			name = Debug;
+		};
+		54468DAB273D6FFD005E046B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.GoPlace-Driver.GoPlace-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoPlace-Driver.app/GoPlace-Driver";
+			};
+			name = Release;
+		};
+		54468DAD273D6FFD005E046B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.GoPlace-Driver.GoPlace-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GoPlace-Driver";
+			};
+			name = Debug;
+		};
+		54468DAE273D6FFD005E046B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isil.GoPlace-Driver.GoPlace-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GoPlace-Driver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54468D77273D6FF7005E046B /* Build configuration list for PBXProject "GoPlace-Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54468DA4273D6FFD005E046B /* Debug */,
+				54468DA5273D6FFD005E046B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54468DA6273D6FFD005E046B /* Build configuration list for PBXNativeTarget "GoPlace-Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54468DA7273D6FFD005E046B /* Debug */,
+				54468DA8273D6FFD005E046B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54468DA9273D6FFD005E046B /* Build configuration list for PBXNativeTarget "GoPlace-DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54468DAA273D6FFD005E046B /* Debug */,
+				54468DAB273D6FFD005E046B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54468DAC273D6FFD005E046B /* Build configuration list for PBXNativeTarget "GoPlace-DriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54468DAD273D6FFD005E046B /* Debug */,
+				54468DAE273D6FFD005E046B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54468D74273D6FF7005E046B /* Project object */;
+}
